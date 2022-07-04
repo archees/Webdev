@@ -12,7 +12,23 @@
     <main>
       <form action="">
         <h1>Contact Form</h1>
-        <!-- Add your code here -->
+        <label for="user">Username:</label>
+        <input type="text" id="user" name="user"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br><br>
+        <fieldset>
+          <legend>Would you like to sign up for the Newsletter?</legend>
+          <input type="radio" id="yes" name="yes">
+          <label for="yes">Yes, Sign me up</label>
+          <input type="radio" id="no" name="no">
+          <label for="no">No, Thank you</label><br>
+        </fieldset><br>
+        <label for="Date">Date:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" name="submit" value="Submit" class="submit" id="submit">
+        <input type="reset" name="reset" value="reset" class="reset" id="Reset"><br>
       </form>
     </main>
   </body>
