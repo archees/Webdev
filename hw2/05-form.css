@@ -48,21 +48,25 @@ h1{
     border: 1px green;
     border-radius: 3px;
 }
-
 .reset {
-    background-color: green;
-    color: white;
-    height: 40px;
-    width: 45%;
-    font-weight: bold;
-    border: 1px green;
-    border-radius: 3px;
+  border-color: green;
+  color: green;
+  background-color: white;
+  height: 40px;
+  width: 45%;
+  font-weight: bold;
+  border-radius: 3px;
 }
 
-.submit:hover, .reset:hover {
+.submit:hover {
     background-color: orange;
     color: black;
   }
+.reset:hover{
+    background-color: black;
+    color: white;
+
+}
 
 input[type="text"] {
     width: 85%;
@@ -96,7 +100,7 @@ legend {
     margin-bottom: 0.2em;
     font-weight: bold;
   }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     div,.inputfield{
       width: 100%;
       margin-top: 0;
