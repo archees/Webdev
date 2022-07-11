@@ -3,14 +3,44 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 body {
   margin: 0;
+  width: 100%;
 }
 
-.nav-list {
+nav {
+  background-color: green;
+  position:fixed;
+  padding-left: 0px;
 }
 
-.list-item {
-  background-color: var(--green);
+ul {
+  margin: 0;
+  text-align:left;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
 }
 
-.nav-link {
+li {
+  display:inline;
+  color:white;
+  width:100%;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+  width:100%;
+  padding: 14px 16px;
+}
+
+a:hover {
+  background-color: orange;
+  color: black;
+  width: 100%;
+  padding: 16px 16px;
+}
+li {
+  display:inline;
+  color:white;
+  width:100%;
+}
+
