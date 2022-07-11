@@ -3,6 +3,9 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 .container {
   width: 300px;
+  border: navy solid 1px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
 }
 
 .img {
@@ -11,4 +14,18 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 .btn {
   width: 100%;
+  padding: 14px 16px;
+  background-color:navy;
+  color: white;
+}
+
+.btn:hover {
+  background-color:orange;
+  color:black;
+}
+
+h1 {
+  color:navy;
+  text-align: center;
+  font-weight: bold;
 }
