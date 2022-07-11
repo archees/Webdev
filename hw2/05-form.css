@@ -1,17 +1,104 @@
 /* The class names and style declarations below were added to help you get started.
 If you would prefer, you can delete them and use your own classes and style declarations. */
+* {
+    box-sizing: border-box;
+  }
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #404040;
+}
 
 .form {
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin-top: 25px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: auto;
+    border-radius: 10px;
 }
-
+ 
 .form-element {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 5px 5px 0px;
+    cursor: pointer;
+    text-align: left;
+    width: 25%;
+}
+.inputfield
+{
+    display:inline-block;
+    width: 75%;
+    padding-left: 10px;
+    float: right;
+} 
+
+.submit{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 45%;
+    font-weight: bold;
+    border: 1px green;
+    border-radius: 3px;
 }
 
-.btn {
+.reset {
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 45%;
+    font-weight: bold;
+    border: 1px green;
+    border-radius: 3px;
 }
 
-.btn-primary {
-}
+.submit:hover, .reset:hover {
+    background-color: orange;
+    color: black;
+  }
 
-.btn-secondary {
-}
+input[type="text"] {
+    width: 85%;
+    padding: 3px;
+    margin-bottom: 10px; 
+    border: 2px solid #cccccc;
+  }
+
+input[type="email"] {
+    width: 85%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 2px solid #cccccc;
+  }
+
+input[type="password"] {
+    width: 85%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 2px solid #cccccc;
+  }
+
+fieldset{
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+  }
+    
+legend {
+    padding: 0;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+  }
+/* @media screen and (max-width: 600px) {
+    .form,.form-element, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  } */

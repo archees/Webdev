@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>05 - Form</title>
-    <!-- <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../hw2/05-form.css" /> -->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw2/05-form.css" /> 
   </head>
   <body>
     <main>
+      <div class="form">
       <form action="">
-        <h1>Contact Form</h1>
-        <label for="user">Username:</label>
-        <input type="text" id="user" name="user"><br><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br><br>
-        <label for="pass">Password:</label>
-        <input type="password" id="pass" name="pass"><br><br>
+        <h1>Registration Form</h1>
+        <div class="form-element"><label for="user">Username:</label></div> 
+        <div class="inputfield"> <input type="text" id="user" name="user"></div><br><br>
+        <div class="form-element"><label for="email">Email:</label></div>
+        <div class="inputfield"><input type="email" id="email" name="email"></div><br><br>
+        <div class="form-element"><label for="pass">Password:</label></div>
+        <div class="inputfield"><input type="password" id="pass" name="pass"></div><br><br>
         <fieldset>
           <legend>Would you like to sign up for the Newsletter?</legend>
           <input type="radio" id="yes" name="yes">
-          <label for="yes">Yes, Sign me up</label>
+          <label for="yes">Yes, Sign me up</label><br>
           <input type="radio" id="no" name="no">
           <label for="no">No, Thank you</label><br>
         </fieldset><br>
-        <label for="date">Date:</label>
+        <div class="form-element"><label for="date" class="form-element">Date:</label></div>
         <input type="date" id="date" name="date"><br><br>
         <input type="submit" name="submit" value="Submit" class="submit" id="submit">
         <input type="reset" name="reset" value="Reset" class="reset" id="Reset"><br>
       </form>
+    </div>
     </main>
   </body>
 </html>
