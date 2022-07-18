@@ -165,3 +165,6 @@ grid-column: span 2;
 }
 
 /* Code for exercise 06-bootstrap-form */
+form {
+  width: 400px;
+}
