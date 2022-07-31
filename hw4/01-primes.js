@@ -8,7 +8,7 @@ const getPrimes = () => {
         factor++;
       }
     }
-    if (factor = 2) {
+    if ((factor = 2)) {
       console.log(n);
     }
     factor = 0;
@@ -16,4 +16,3 @@ const getPrimes = () => {
 };
 
 getPrimes();
-
