@@ -2,20 +2,28 @@ let result = [];
 
 const insertItem = (item) => {
   // insert item into result
+  let index = result.length;
+  result[index] = item;
+  return item;
 
   return item;
 };
 
 const deleteItem = (item) => {
   // remove the first occurrence of item in result
-
+  result.splice(result.indexOf(item), 1);
   return item;
 };
 
 const lookupItem = (index) => {
   // return the item from result at index, deleting the obtained item
-
-  return index;
+  if (index > 0 && index <= result.length) {
+    let num = result[index];
+    result.splice(index, 1);
+    return index;
+  } else {
+    return null;
+  }
 };
 
 const printItems = () => {
