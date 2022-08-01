@@ -4,18 +4,18 @@ form.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
   // Add your code here
-  let username = document.querySelector("#user");
-  let mailid = document.querySelector("#mailid");
+  let Username = document.querySelector("#user");
+  let Email = document.querySelector("#mailid");
   let Date = document.querySelector("#date");
-  let newsletter = document.getElementsByName("signup");
-  if (username.value == "") {
+  let Newsletter = document.getElementsByName("news");
+  if (Username.value == "") {
     console.warn("You must enter some data to submit this form");
     return;
   }
   console.log("=========Form Submission=========");
-  console.log("Username:", username.value);
-  console.log("Email:", mailid.value);
-  if (newsletter[0].checked == true) {
+  console.log("Username:", Username.value);
+  console.log("Email:", Email.value);
+  if (Newsletter[0].checked == true) {
     console.log("Newsletter:", "Yes");
   } else {
     console.log("Newsletter:", "no submission");
