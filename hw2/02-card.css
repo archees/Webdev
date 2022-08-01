@@ -15,17 +15,17 @@ If you would prefer, you can delete them and use your own classes and style decl
 .btn {
   width: 100%;
   padding: 14px 16px;
-  background-color:navy;
+  background-color: navy;
   color: white;
 }
 
 .btn:hover {
-  background-color:orange;
-  color:black;
+  background-color: orange;
+  color: black;
 }
 
 h1 {
-  color:navy;
+  color: navy;
   text-align: center;
   font-weight: bold;
 }

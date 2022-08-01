@@ -1,20 +1,18 @@
-
 .container {
   width: 50vw;
-  margin:auto;
+  margin: auto;
   align-content: center;
-  }
+}
 p::first-line {
-    font-weight: bold;
-  }
-p{
-    text-align: center;
-  }
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
 
 img {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

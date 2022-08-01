@@ -8,27 +8,27 @@ body {
 
 nav {
   background-color: green;
-  position:fixed;
+  position: fixed;
   padding-left: 0px;
 }
 
 ul {
   margin: 0;
-  text-align:left;
+  text-align: left;
   width: 100%;
   padding: 15px 0px 15px 0px;
 }
 
 li {
-  display:inline;
-  color:white;
-  width:100%;
+  display: inline;
+  color: white;
+  width: 100%;
 }
 
 a {
   color: white;
   text-decoration: none;
-  width:100%;
+  width: 100%;
   padding: 14px 16px;
 }
 
@@ -39,8 +39,7 @@ a:hover {
   padding: 16px 16px;
 }
 li {
-  display:inline;
-  color:white;
-  width:100%;
+  display: inline;
+  color: white;
+  width: 100%;
 }
-

@@ -6,7 +6,8 @@ If you would prefer, you can delete them and use your own classes and style decl
   padding: 5px;
 }
 
-th,td {
+th,
+td {
   border: 1px solid;
 }
 
@@ -27,4 +28,3 @@ th,td {
 tr:hover {
   background-color: var(--lightorange);
 }
-

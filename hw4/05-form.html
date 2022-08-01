@@ -6,11 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>05 - Form</title>
     <script defer src="05-form.js"></script>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw2/05-form.css" /> 
   </head>
   <body>
     <main>
       <form class="form" action="">
         <h1 class="title">Registration Form</h1>
+        <div class="form-element"><label for="user">Username:</label></div> 
+        <div class="inputfield"> <input type="text" id="user" name="user"></div><br><br>
+        <div class="form-element"><label for="mailid">Email:</label></div>
+        <div class="inputfield"><input type="email" id="mailid" name="mailid"></div><br><br>
+        <div class="form-element"><label for="pass">Password:</label></div>
+        <div class="inputfield"><input type="password" id="pass" name="pass"></div><br><br>
+        <legend>Would you like to sign up for the Newsletter?</legend>
+        <div>
+          <input type="radio" id="yes" name="news">
+          <label for="yes">Yes, Sign me up</label><br>
+        </div>
+        <div>
+          <input type="radio" id="no" name="news">
+          <label for="no">No, Thank you</label><br>
+        </div><br>
+        <div class="form-element"><label for="date" class="form-element">Date:</label></div>
+        <input type="date" id="date" name="date"><br><br>
+        <button class="btn submit">Submit</button>
+        <button class="btn reset">Reset</button>
       </form>
     </main>
   </body>
