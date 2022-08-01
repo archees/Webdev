@@ -20,6 +20,5 @@ bold.appendChild(node);
 paragraph.appendChild(bold);
 paragraph.appendChild(document.createElement("br"));
 paragraph.append(text);
-paragraph.appendChild(document.createElement("br"));
 main.appendChild(paragraph);
 main.setAttribute("style", "text-align:center");
