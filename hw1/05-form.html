@@ -10,30 +10,42 @@
   </head>
   <body>
     <main>
-      <div class="form">
-      <form action="">
-        <h1>Registration Form</h1>
-        <div class="form-element"><label for="user">Username:</label></div> 
-        <div class="inputfield"> <input type="text" id="user" name="user"></div><br><br>
-        <div class="form-element"><label for="email">Email:</label></div>
-        <div class="inputfield"><input type="email" id="email" name="email"></div><br><br>
-        <div class="form-element"><label for="pass">Password:</label></div>
-        <div class="inputfield"><input type="password" id="pass" name="pass"></div><br><br>
-        <fieldset>
-          <legend>Would you like to sign up for the Newsletter?</legend>
-          <input type="radio" id="yes" name="news">
-          <label for="yes">Yes, Sign me up</label><br>
-          <input type="radio" id="no" name="news">
-          <label for="no">No, Thank you</label><br>
-        </fieldset><br>
-        <div class="form-element"><label for="date" class="form-element">Date:</label></div>
-        <input type="date" id="date" name="date"><br><br>
-        <button class="btn submit">Submit</button>
-        <button class="btn reset">Reset</button>
-        <!-- <button type="submit" name="submit" value="Submit" class="submit" id="submit">
-        <button type="reset" name="reset" value="Reset" class="reset" id="Reset"><br> -->
+      <form class="form" action="">
+        <h1 class="title">Registration Form</h1>
+        <div class="form-element">
+          <label class="input-label" for="user">Username:</label>
+          <input class="input-element" type="text" id="user" name="user">
+        </div>
+        <div class="form-element">
+          <label class="input-label" for="mailid">Email:</label>
+          <input class="input-element" type="email" id="mailid" name="mailid">
+        </div>
+        <div class="form-element">
+          <label class="input-label" for="pass">Password:</label>
+          <input class="input-element" type="password" id="pass" name="pass">
+        </div>
+        <fieldset class="form-element">
+          <legend class="input-label">
+            Would you like to sign up for the Newsletter?
+          </legend>
+          <div>
+            <input type="radio" id="yes" name="news">
+            <label for="yes">Yes, Sign me up</label><br>
+          </div>
+          <div>
+            <input type="radio" id="no" name="news">
+            <label for="no">No, Thank you</label><br>
+          </div>
+        </fieldset>
+        <div class="form-element">
+          <label class="input-label" for="date">Date:</label>
+          <input class="input-element"type="date" id="date" name="date">
+        </div>
+        <div class="form-element">
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-secondary" type="reset">Reset</button>
+        </div>
       </form>
-    </div>
     </main>
   </body>
 </html>

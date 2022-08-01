@@ -1,107 +1,53 @@
 /* The class names and style declarations below were added to help you get started.
 If you would prefer, you can delete them and use your own classes and style declarations. */
-* {
-  box-sizing: border-box;
-}
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  color: #404040;
-}
-
-.form {
-  border: 1px solid black;
-  width: 400px;
-  height: 600px;
-  display: block;
-  margin-top: 25px;
-  padding: 20px;
-  text-align: left;
-  margin-left: 25%;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-.form-element {
-  font-weight: bold;
-  display: inline-block;
-  padding: 5px 5px 5px 0px;
-  cursor: pointer;
-  text-align: left;
-  width: 25%;
-}
-.inputfield {
-  display: inline-block;
-  width: 75%;
-  padding-left: 10px;
-  float: right;
-}
-
-.submit {
-  background-color: green;
-  color: white;
-  height: 40px;
-  width: 45%;
-  font-weight: bold;
-  border: 1px green;
-  border-radius: 3px;
-}
-.reset {
-  border-color: green;
-  color: green;
-  background-color: white;
-  height: 40px;
-  width: 45%;
-  font-weight: bold;
-  border-radius: 3px;
-}
-
-.submit:hover {
-  background-color: orange;
-  color: black;
-}
-.reset:hover {
-  background-color: black;
-  color: white;
-}
-
-input[type="text"] {
-  width: 85%;
-  padding: 3px;
-  margin-bottom: 10px;
-  border: 2px solid #cccccc;
-}
-
-input[type="email"] {
-  width: 85%;
-  padding: 3px;
-  margin-bottom: 10px;
-  border: 2px solid #cccccc;
-}
-
-input[type="password"] {
-  width: 85%;
-  padding: 3px;
-  margin-bottom: 10px;
-  border: 2px solid #cccccc;
-}
-
 fieldset {
-  padding: 0;
-  border-width: 0;
   margin: 0;
+  border: 0;
+  padding: 0;
+}
+.form {
+  margin: 40px auto;
+  border: 1px solid var(--gray4);
+  border-radius: 00.5rem;
+  padding: 1rem;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.form-element {
+  margin-bottom: 2rem;
+}
+.input-label {
+  font-weight: 600;
+}
+.input-element {
+  display: block;
+  height: 24px;
+  width: 70%;
+  float: right;
+  border: 1px solid var(--gray4);
 }
 
-legend {
-  padding: 0;
-  margin-bottom: 0.2em;
-  font-weight: bold;
+.btn {
+  width: 49%;
+  border: 1px solid var(--green);
+  padding: 0.5rem;
+  font-size: 1.1rem;
 }
-@media screen and (max-width: 600px) {
-  div,
-  .inputfield {
-    width: 100%;
-    margin-top: 0;
-  }
+.btn-primary {
+  background-color: var(--green);
+  color: var(--white);
+}
+.btn-secondary {
+  background-color: var(--white);
+  color: var(--green);
+}
+.btn-primary:hover {
+  border: 1px solid var(--black);
+  background-color: var(--orange);
+  color: var(--black);
+}
+.btn-secondary.btn-primary:hover {
+  background-color: rgba(176, 226, 176, 0.5);
 }
